@@ -21,7 +21,8 @@
  ***************************************************************************/
 """
 from PyQt5.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
-from PyQt5.QtGui import QAction, QIcon
+from PyQt5.QtWidgets import QAction
+from PyQt5.QtGui import QIcon
 # Initialize Qt resources from file resources.py
 import resources_rc
 # Import the code for the dialog
